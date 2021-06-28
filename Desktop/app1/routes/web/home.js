@@ -59,7 +59,7 @@
           console.log(submittedPass);
           console.log(storedPass);
           if (!passwordMatch) { // must be if (passwordMatch), but there are some problems with bcrypt.compare (always returning false) (I think something wrong with types)
-              res.render('home/race');
+              res.render('home/btcRATE');
           } else {
               res.render('home/logfail1');
           }
